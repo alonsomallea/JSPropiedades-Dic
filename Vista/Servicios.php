@@ -180,6 +180,7 @@
             </section>
         </div>
     </div>
+    <!-- Cambio -->
     <!-- Footer -->
     <footer class="footer">
         <div class="columns">
