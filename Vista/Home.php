@@ -11,6 +11,12 @@
     <!-- Bulma -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@2/css/all.min.css">
+    <style>
+    h1 {
+        font-family: Arial, sans-serif;
+        color: #FF214F;
+    }
+    </style>
 </head>
 
 <body>
@@ -46,24 +52,61 @@
                 </a>
             </div>
 
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    <a href="mailto: jspropiedades2020@gmail.com">
-                        <figure class="image is-32x32">
-                            <img src="../Images/Icons/mail-outline.svg">
-                        </figure>
-                    </a>
-                </div>
+            <div class="navbar-item">
+                <figure>
+                    <?php
+    date_default_timezone_set("America/Santiago");
+    echo date("d/");
+    echo date("m/");
+    echo date("y  ");?>
 
-                <div class="navbar-item">
-                    <a href="https://wa.link/uhq317" target="_blank">
-                        <figure class="image is-32x32">
-                            <img src="../Images/Icons/logo-whatsapp.svg">
-                        </figure>
-                    </a>
+                    <label class="Hora" id="displaytime">
+                        <script>
+                        function myFunc() {
+                            var now = new Date();
+                            var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+                            document.getElementById('displaytime').innerHTML = time;
+                        }
+                        setInterval(myFunc, 1000);
+                        </script>
+                    </label>
+                    <br>
+                    <label class="Hora" id="displaytime1">
+                        <script>
+                        function myFunc1() {
+
+                            fecha = new Date();
+                            hora = fecha.getHours();
+
+                            if (hora >= 18 && hora < 9) {
+                                texto = "Cerrado";
+                            }
+                            if (hora >= 9 && hora < 18) {
+                                texto = "Abierto";
+                            }
+                            document.getElementById('displaytime1').innerHTML = texto;
+                        }
+                        </script>
+                    </label></br>
+                </figure>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a href="mailto: jspropiedades2020@gmail.com">
+                            <figure class="image is-32x32">
+                                <img src="../Images/Icons/mail-outline.svg">
+                            </figure>
+                        </a>
+                    </div>
+
+                    <div class="navbar-item">
+                        <a href="https://wa.link/uhq317" target="_blank">
+                            <figure class="image is-32x32">
+                                <img src="../Images/Icons/logo-whatsapp.svg">
+                            </figure>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
     </nav>
 
     <section class="section">
@@ -303,7 +346,7 @@
                             <a href="Home.php">Home</a>
                         </div>
                         <div class="block">
-                        <a href="Servicios.php">Servicios</a>
+                            <a href="Servicios.php">Servicios</a>
                         </div>
                         <div class="block">
                             <a href="Contacto.php">Contacto</a>
@@ -352,21 +395,21 @@
                     <br>
                     <div class="columns">
                         <div class="column">
-                            <a href="Home.php" target="_blank">
+                            <a href="https://cl.linkedin.com/in/jessica-cecilia-sánchez-muñoz-599b3b1a3">
                                 <figure class="image is-32x32">
                                     <img src="../Images/Icons/logo-linkedin.svg">
                                 </figure>
                             </a>
                         </div>
                         <div class="column">
-                            <a href="Home.php" target="_blank">
+                            <a href="https://www.facebook.com/jspropiedadesadm">
                                 <figure class="image is-32x32">
                                     <img src="../Images/Icons/logo-facebook.svg">
                                 </figure>
                             </a>
                         </div>
                         <div class="column">
-                            <a href="Home.php" target="_blank">
+                            <a href="https://www.instagram.com/corredorajessica/?hl=es-la">
                                 <figure class="image is-32x32">
                                     <img src="../Images/Icons/logo-instagram.svg">
                                 </figure>
@@ -421,3 +464,6 @@
 </body>
 
 </html>
+<script src="JavaScript/JS.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
