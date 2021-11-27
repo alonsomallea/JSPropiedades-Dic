@@ -22,7 +22,7 @@
 <body>
     <!-- Header -->
     <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
+        <div class="navbar-brand" >
             <a class="navbar-item" href="Vista/Home.php">
                 <figure class="image is-48x48">
                     <img src="../Images/Global/logo.jpg">
@@ -126,7 +126,7 @@
                         <p class="title">
                         <div class="card">
                             <div class="card-image">
-                                <figure class="image is-4by3">
+                                <figure class="image ">
                                     <img src="https://bulma.io/images/placeholders/1280x960.png"
                                         alt="Placeholder image">
                                 </figure>
@@ -143,7 +143,7 @@
                             <div class="card-content">
                                 <div class="content">
                                     <div class="content is-small">
-                                        <h1>Hello World</h1>
+                                        <h1>Bienvenido!!</h1>
                                         <p>Buenas tardes mi nombre es Jessica Sánchez, Soy Adm de Empresa y Corredora de
                                             Propiedades. Les presento mi asesoría de corretaje "J.S.PROPIEDADES SpA."
                                             También les puedo ofrecer propiedades que están a mi cargo producto de
@@ -151,17 +151,20 @@
                                             redes de apoyo y así generamos nuestras ventas y se las ofrecemos a uds
                                             nuestros clientes. A quienes les ofrecemos nuestras propiedades con
                                             transparencia y sobre todo con toda la honestidad y valores..</p>
-                                        <h2>Second level</h2>
+                                        <h2>JS Propiedades</h2>
                                         <p>¿Andas en busca de tranquilidad para ti y familia? J.S.PROPIEDADES SpA. Te
                                             ofrece hacer tu sueño realidad.Te podemos gestionar la venta de tu propiedad
                                             y te podemos gestionar una propiedad para tu compra .NO TARDES DEMASIADO EN
                                             INVERTIR EN UN BIEN RAÍZ. CONTACTANOS : WHATSAPP +569/76517005 Jessica
                                         </p>
-                                        <ul>
-                                            <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-                                            <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-                                            <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-                                            <li>Ut non enim metus.</li>
+                                        <ul> 
+                                            Adm de Bienes Raíces, confía tus propiedades para ofrecerlas en arriendo y
+                                            venta. NUESTRO LEMA" CLIENTES FELICES ,COMPRADORES FELICES"
+                                            <div>Compra :</div>
+                                            <li>Crédito Hipotecario</li>
+                                            <li>Contado.</li>
+                                            <li>Transparencia y ética profesional, carisma y dedicación.</li>
+                                            <li>Comisión 2 % por venta</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -289,7 +292,7 @@
                     </article>
                     <br>
                     <br>
-                        <div class="columns">
+                    <div class="columns">
                         <div class="column">
                             <a href="https://cl.linkedin.com/in/jessica-cecilia-sánchez-muñoz-599b3b1a3">
                                 <figure class="image is-32x32">
@@ -311,9 +314,9 @@
                                 </figure>
                             </a>
                         </div>
+                    </div>
+                </section>
             </div>
-            </section>
-        </div>
         </div>
 
     </footer>
