@@ -4,7 +4,7 @@ session_start();
 
 // Revisa si la sesion ya esta inciada, si es asi redirecciona a landing.php
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: Menu.php");
+    header("location: ../Vista/24601/Menu.php");
     exit;
 }
 
