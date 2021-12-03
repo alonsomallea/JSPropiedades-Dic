@@ -132,17 +132,8 @@
                             <div class="media-left">
                             </div>
                             <div class="media-content">
-                                <p class="title is-4">Compra de Propiedades</p>
-                                <p class="subtitle is-6">@johnsmith</p>
+                                <center><p class="title is-4">Compra de Propiedades</p></center>
                             </div>
-                        </div>
-
-                        <div class="content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                            <a href="#">#css</a> <a href="#">#responsive</a>
-                            <br>
-                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                         </div>
                     </div>
                 </div>
@@ -161,17 +152,8 @@
                             <div class="media-left">
                             </div>
                             <div class="media-content">
-                                <p class="title is-4">Venta de Propiedades</p>
-                                <p class="subtitle is-6">@johnsmith</p>
+                               <center><p class="title is-4">Venta de Propiedades</p></center>
                             </div>
-                        </div>
-
-                        <div class="content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                            <a href="#">#css</a> <a href="#">#responsive</a>
-                            <br>
-                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                         </div>
                     </div>
                 </div>
@@ -190,19 +172,9 @@
                             <div class="media-left">
                             </div>
                             <div class="media-content">
-                                <p class="title is-4">Arriendo de Propiedades</p>
-                                <p class="subtitle is-6">@johnsmith</p>
+                               <center> <p class="title is-4">Arriendo de Propiedades</p></center>
                             </div>
                         </div>
-
-                        <div class="content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                            <a href="#">#css</a> <a href="#">#responsive</a>
-                            <br>
-                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                        </div>
-                    </div>
                 </div>
 
             </div>
@@ -232,8 +204,8 @@
                             </div>
 
                             <div class="content">
-                                Si buscas una casa para comprar o arrendar aqui es la mejor opcion!. <a>@bulmaio</a>.
-                                <a href="#">#css</a> <a href="#">#responsive</a>
+                                Si buscas una casa para comprar o arrendar aqui es la mejor opcion!. <a>@JessicaSanchez</a>.
+                                <a href="#">#NuevoHogar</a> <a href="#">#HogarDulceHogar</a>
                                 <br>
                             </div>
                         </div>
@@ -256,8 +228,8 @@
                             </div>
 
                             <div class="content">
-                                Si lo que necesistas es un departamento buscar aqui te ayudara!. <a>@bulmaio</a>.
-                                <a href="#">#css</a> <a href="#">#responsive</a>
+                                Si lo que necesistas es un departamento buscar aqui te ayudara!. <a>@JessicaSanchez</a>.
+                                <a href="#">#BuscoDepartaento</a> <a href="#">#ArriedoDepartamento</a>
                                 <br>
                             </div>
                         </div>
@@ -281,8 +253,8 @@
 
                             <div class="content">
                                 Tienes una compañia? te ayudamos a encontrar una oficina perfecta!
-                                <a>@bulmaio</a>.
-                                <a href="#">#css</a> <a href="#">#responsive</a>
+                                <a>@JessicaSanchez</a>.
+                                <a href="#">#NuevaEmpresa</a> <a href="#">#OficinaNueva</a>
                                 <br>
                             </div>
                         </div>
@@ -305,8 +277,8 @@
                             </div>
 
                             <div class="content">
-                                Si tienes planes de construir tu propia casa, busca un terreno aqui!. <a>@bulmaio</a>.
-                                <a href="#">#css</a> <a href="#">#responsive</a>
+                                Si tienes planes de construir tu propia casa, busca un terreno aqui!. <a>@JessicaSanchez</a>.
+                                <a href="#">#ComproTerreno</a> <a href="#">#NuevaCasa</a>
                                 <br>
                             </div>
                         </div>

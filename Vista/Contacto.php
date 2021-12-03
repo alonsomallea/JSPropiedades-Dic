@@ -151,7 +151,7 @@
                                             redes de apoyo y así generamos nuestras ventas y se las ofrecemos a uds
                                             nuestros clientes. A quienes les ofrecemos nuestras propiedades con
                                             transparencia y sobre todo con toda la honestidad y valores..</p>
-                                        <h2>JS Propiedades</h2>
+                                        <h2>JS Propiedades SpA</h2>
                                         <p>¿Andas en busca de tranquilidad para ti y familia? J.S.PROPIEDADES SpA. Te
                                             ofrece hacer tu sueño realidad.Te podemos gestionar la venta de tu propiedad
                                             y te podemos gestionar una propiedad para tu compra .NO TARDES DEMASIADO EN

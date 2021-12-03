@@ -165,7 +165,7 @@
                     <!-- Media Left -->
                     <figure class="media-left">
                         <figure class="image is-128x128 is-1by1">
-                            <img class="is-rounded" src="../Images/Serviciosnotaria.jfif">
+                            <img class="is-rounded" src="../Images/Servicios/Sin.png">
                         </figure>
                     </figure>
                     <!-- Media Content -->
